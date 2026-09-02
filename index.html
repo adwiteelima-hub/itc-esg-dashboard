@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reusable ESG Rating System</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand"><div class="brand-mark">ESG</div><div><b>ESG Rating</b><span>Reusable Academic System</span></div></div>
+  <div class="company-box"><small>ACTIVE COMPANY</small><strong id="sideCompany">ITC Limited</strong><span id="sideYear">FY2024-25</span></div>
+  <nav>
+    <button class="nav active" data-page="overview">Executive Overview</button>
+    <button class="nav" data-page="environmental">Environmental</button>
+    <button class="nav" data-page="social">Social</button>
+    <button class="nav" data-page="governance">Governance</button>
+    <button class="nav" data-page="scorecard">ESG Scorecard</button>
+    <button class="nav" data-page="methodology">Methodology</button>
+    <button class="nav" data-page="whatif">What-if Analysis</button>
+    <button class="nav" data-page="data">Data Input</button>
+    <button class="nav" data-page="validation">Validation</button>
+  </nav>
+  <div class="sidebar-note">Model v2.0<br>12 indicators • 100% weights<br>Company-agnostic scoring engine</div>
+</aside>
+<main class="main">
+  <header class="topbar"><div><small>REUSABLE ESG RATING TOOL</small><h1 id="pageTitle">Executive Overview</h1></div><div class="status" id="status">● Model calculated</div></header>
+  <div id="content"></div>
+</main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
