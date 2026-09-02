@@ -1,0 +1,193 @@
+{
+  "company": "ITC Limited",
+  "year": "FY2024-25",
+  "dimensions": {
+    "Environmental": 40,
+    "Social": 35,
+    "Governance": 25
+  },
+  "bands": [
+    {
+      "min": 90,
+      "label": "Exceptional"
+    },
+    {
+      "min": 80,
+      "label": "Strong"
+    },
+    {
+      "min": 70,
+      "label": "Good"
+    },
+    {
+      "min": 60,
+      "label": "Moderate"
+    },
+    {
+      "min": 30,
+      "label": "Weak"
+    },
+    {
+      "min": 0,
+      "label": "Poor"
+    }
+  ],
+  "indicators": [
+    {
+      "code": "E1",
+      "dimension": "Environmental",
+      "name": "Specific GHG emission reduction",
+      "actual": 46,
+      "unit": "%",
+      "benchmark": 50,
+      "benchmarkLabel": "50% reduction by 2030",
+      "benchmarkType": "ITC target",
+      "direction": "higher",
+      "weight": 14,
+      "source": "ITC ESG Fact Book 2025 / Sustainability Report 2025"
+    },
+    {
+      "code": "E2",
+      "dimension": "Environmental",
+      "name": "Renewable energy share",
+      "actual": 52,
+      "unit": "%",
+      "benchmark": 50,
+      "benchmarkLabel": "50% by 2030",
+      "benchmarkType": "ITC target",
+      "direction": "higher",
+      "weight": 10,
+      "source": "ITC ESG Fact Book 2025 / Sustainability Report 2025"
+    },
+    {
+      "code": "E3",
+      "dimension": "Environmental",
+      "name": "Specific water consumption reduction",
+      "actual": 35,
+      "unit": "%",
+      "benchmark": 40,
+      "benchmarkLabel": "40% reduction by 2030",
+      "benchmarkType": "ITC target",
+      "direction": "higher",
+      "weight": 8,
+      "source": "ITC ESG Fact Book 2025 / Sustainability Report 2025"
+    },
+    {
+      "code": "E4",
+      "dimension": "Environmental",
+      "name": "Waste recycling/recovery rate",
+      "actual": 99.7,
+      "unit": "%",
+      "benchmark": 99,
+      "benchmarkLabel": ">99%",
+      "benchmarkType": "ITC target",
+      "direction": "higher",
+      "weight": 8,
+      "source": "ITC ESG Fact Book 2025"
+    },
+    {
+      "code": "S1",
+      "dimension": "Social",
+      "name": "Lost Time Injury Frequency Rate (LTIFR)",
+      "actual": 0.12,
+      "unit": "per million person-hours",
+      "benchmark": 0.5,
+      "benchmarkLabel": "0.50",
+      "benchmarkType": "Academic benchmark",
+      "direction": "lower",
+      "weight": 10,
+      "source": "ITC ESG Fact Book 2025"
+    },
+    {
+      "code": "S2",
+      "dimension": "Social",
+      "name": "Women in total workforce",
+      "actual": 16.4,
+      "unit": "%",
+      "benchmark": 40,
+      "benchmarkLabel": "40%",
+      "benchmarkType": "Academic benchmark",
+      "direction": "higher",
+      "weight": 8,
+      "source": "ITC ESG Fact Book 2025"
+    },
+    {
+      "code": "S3",
+      "dimension": "Social",
+      "name": "Average training hours per permanent employee",
+      "actual": 28,
+      "unit": "hours",
+      "benchmark": 40,
+      "benchmarkLabel": "40 hours",
+      "benchmarkType": "Academic benchmark",
+      "direction": "higher",
+      "weight": 7,
+      "source": "ITC Sustainability Report 2025"
+    },
+    {
+      "code": "S4",
+      "dimension": "Social",
+      "name": "Product safety recalls",
+      "actual": 0,
+      "unit": "recalls",
+      "benchmark": 0,
+      "benchmarkLabel": "No safety recalls",
+      "benchmarkType": "Categorical rule",
+      "direction": "categorical",
+      "weight": 10,
+      "source": "ITC BRSR / Report & Accounts 2025"
+    },
+    {
+      "code": "G1",
+      "dimension": "Governance",
+      "name": "Board independence",
+      "actual": 50,
+      "unit": "%",
+      "benchmark": 50,
+      "benchmarkLabel": "50%",
+      "benchmarkType": "ITC governance requirement",
+      "direction": "higher",
+      "weight": 7,
+      "source": "ITC ESG Fact Book 2025 / Report & Accounts 2025"
+    },
+    {
+      "code": "G2",
+      "dimension": "Governance",
+      "name": "Women directors",
+      "actual": 18.75,
+      "unit": "%",
+      "benchmark": 30,
+      "benchmarkLabel": "30%",
+      "benchmarkType": "Academic benchmark",
+      "direction": "higher",
+      "weight": 5,
+      "source": "ITC ESG Fact Book 2025"
+    },
+    {
+      "code": "G3",
+      "dimension": "Governance",
+      "name": "ESG disclosure & assurance",
+      "actual": 100,
+      "unit": "checklist score",
+      "benchmark": 100,
+      "benchmarkLabel": "100/100",
+      "benchmarkType": "Checklist",
+      "direction": "higher",
+      "weight": 8,
+      "source": "ITC ESG Fact Book 2025 / Sustainability Report 2025 / BRSR"
+    },
+    {
+      "code": "G4",
+      "dimension": "Governance",
+      "name": "Ethics & anti-corruption management",
+      "actual": 100,
+      "unit": "checklist score",
+      "benchmark": 100,
+      "benchmarkLabel": "100/100",
+      "benchmarkType": "Checklist",
+      "direction": "higher",
+      "weight": 5,
+      "source": "ITC ESG Fact Book 2025 / BRSR"
+    }
+  ]
+}
